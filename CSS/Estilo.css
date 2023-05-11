@@ -1,0 +1,243 @@
+/* Body */
+body{
+		/* para colocar una imagen de fondo*/
+	background-image:url("../imagenes/blanco.png");
+		/*para ajustarel tamaño de la imagen de fondo*/
+	background-size:100% 100%;
+	/* Font-family es para el tipo de letra*/
+	font-family: "Lucida Console", "Courier new", monospace;
+	/* font-size es para el tamaño de la letra*/
+	font-size: 40px; 
+	/*color es para ca,biar el color de la letra*/
+	color:#000000;
+}
+hr{
+	/*border es para la linea 
+	tamaño en pixeles tipo de linea y color*/
+	border: 5px solid #E8DAEF;
+	/*border radius es para el terminado de orillas el radio que tendra se expresa en pixeles*/
+	border-radius: 5px;
+	
+}
+
+p{
+	text-align: justify;
+	font-size: 20px;
+	color: green;
+}
+
+table, tr, td{ 
+	border:3px solid;
+	border-color: #F08080;
+	text-align: center;
+	background-color: #7D3C98;
+}
+th{
+	background-color: white;
+}
+ul{
+	list-style-type: circle;
+	list-style-position: inside;
+}
+ol{
+	/* alguno de los valores de list-style-type son;
+	lower-alpha; lower-roman; upper-alpha; upper-roman;
+	a,b,c,d,e,f i,ii,iii,iv A,B,C,D,E,F I,II,III,IV*/
+	list-style-type: upper-roman;
+	list-style-position: inside;
+}
+
+.pie{
+	text-align: center;
+	font-size: 70px;
+	color: #000000;
+	font-family: BEST;
+	color: #000000;
+}
+
+.ppie{
+	text-align: center;
+	font-size: 25px;
+	color: #000000;
+	font-family: GREEN;
+	color: #000000;
+}
+.texto{
+	font-family:animal;
+	font-size: 120px;
+	color:  #3E2723  ;
+	text-align: center; 
+}
+
+.ttexto{
+	font-family:BEST;
+	font-size: 50px;
+	color: #C39BD3  ;
+	text-align: center; 
+}
+.marquesina{
+	width:450px;
+	height:450px;
+	border-radius: 20%;
+	border:5px solid  #EBDEF0;
+}
+
+.botones{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+}
+
+.img-tablas{
+	width: 155px;
+	height:155px;
+}
+.img-otras{
+	width: 450px;
+	height:450px;
+	border-radius:450%;
+	border:5px solid #EBDEF0;
+}
+
+@font-face{
+	font-family:domi;
+	src: url("../fuentes/domi.otf");
+}
+
+@font-face{
+	font-family: BEST;
+	src: url("../fuentes/BEST.ttf");
+}
+
+@font-face{
+	font-family: animal;
+	src: url("../fuentes/animal.otf");
+}
+
+@font-face{
+	font-family: GREEN;
+	src: url("../fuentes/GREEN.ttf");
+}
+
+/*uso de divs*/
+/*div o caja para el encabezado*/
+
+*{
+	margin:0px;
+	padding:0px;
+}
+div#top{
+	width:100%;
+	height:200px;
+	background-color:#FDEDEC,#F5EEF8;
+}
+div#principal{
+	margin:auto;
+	margin-top:10px;
+	width:100%;
+	height:600px;
+	background-image:radial-gradient ()
+}
+
+div#piep{
+	margin-top:10px;
+	width:100%;
+	height:200px;
+	background-image:url("../imagenes/fondo09.png");
+}
+
+.CAJA{
+	height:300px;
+	width:200px;
+	background: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	margin:5px;
+	color: black;
+	text-align: align;
+	display: inline-block;
+}
+
+.CAJA:hover{
+	box-shadow:0 0 10px #6800FF;
+	transform:scale(1.3);
+}
+
+.caja-texto{
+	padding-top:2px;
+	font-size:20px;
+	color: black;
+	font-weight:bold;
+}
+
+.texto-adicional{
+	padding-top:5px;
+	font-size:15px;
+}
+
+.carrousel{
+	width: 600px;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+.conteCarrousel{
+	width: 100%;
+	height: 400%;
+	overflow:hidden;
+	box-sizing: border-box;
+}
+
+.itemCarrousel{
+	position:relative;
+	width:100%;
+	height:100%;
+	box-sizing: border-box;
+}
+
+.itemCarrouselTarjeta{
+	width:100%;
+	height:100%;
+	box-sizing: border-box;
+}
+
+.itemCarrouselArrows{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	height:100%;
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding:20px;
+	box-sizing:border-box;
+}
+
+.itemCarrouselArrows>i :hover{
+	cursor:pointer;
+}
+
+.conterCarrouselController{
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+}
+
+.conterCarrouselController>a {
+	text-decoration:none;
+	font-size:32px;
+	color:grey;
+}
+
+.itemCarrouselArrows>a>i{
+	color:white;
+}
+
+.descripcion{
+font-family:GREEN;
+font-size:30px;
+color:black;
+text-align:center;
+}
